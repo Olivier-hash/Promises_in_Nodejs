@@ -3,8 +3,8 @@ const fetch = require('node-fetch');
 
 async function getUSers() {
     try {
-        const res = await fetch('"https://jsonplaceholder.typicode.com/users"')
-        const users = await res.json()
+        const res = await fetch("https://jsonplaceholder.typicode.com/users"); 
+        const users = await res.json();
         console.log("Fetched users:");
 
         // loops
