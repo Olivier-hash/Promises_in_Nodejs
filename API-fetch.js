@@ -7,7 +7,7 @@ async function getUSers() {
         const users = await res.json();
         console.log("Fetched users:");
 
-        // loops  exampl
+        // loops  examp
         users.forEach(user => {
             console.log(`${user.id}: ${user.name} ${user.email}`);
             
