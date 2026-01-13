@@ -1,4 +1,4 @@
-
+// File handling
 const fs = require('fs').promises
 
 fs.readFile('sapmple.txt', utf8).then((data) =>{
